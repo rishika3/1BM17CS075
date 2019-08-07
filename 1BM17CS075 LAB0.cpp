@@ -11,7 +11,6 @@ int main(){
       cout<<"Enter Element "<<(i+1)<< ": ";
       cin>>num[i];
    }
-   // Storing first array element in "largest" variable
    largest = num[0];
    for(int i = 1;i < n; i++) {
      
