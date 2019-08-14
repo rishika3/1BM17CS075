@@ -14,5 +14,5 @@ def squareroot(n):
      l=mid-1
  return ans
 x=input("squareroot of:")
-print (squareroot(12))
+print (squareroot(x))
 
