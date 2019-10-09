@@ -1,5 +1,5 @@
 def lcs(X, Y, m, n): 
-    L = [[0 for x in range(n+1)] for y in range(m+1)] 
+    L = [[0 for x in range(n+1)] for x in range(m+1)] 
   
     for i in range(m+1): 
         for j in range(n+1): 
